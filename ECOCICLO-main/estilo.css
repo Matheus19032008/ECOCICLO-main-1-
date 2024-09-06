@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "Lexend";
+    src: url("font/Lexend-VariableFont_wght.ttf") format ("truetype");
+}
+
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #598c38;
+    font-family: "Lexend", sans-serif;
+}
+
+
+header {
+    background-image: url(img/fundo.png);
+    background-size: cover;
+    height: 500px;
+} 
+.titulo{ 
+    font-size: 80px;
+    font-weight: 500;
+}
+.subtitulo {
+    font-size: 30px;
+}
+body {
+    background-color: #598c38;
+}
+.imagem {
+    height: 300px;
+}
+.divisao {
+    background-color: #F4F3F3;
+    width: 320px;
+    border-radius: 8px;
+    margin: 15px;
+}
+.display {
+    display: flex;
+    justify-content: center;
+
+}
+.texto {
+    font-size: 14px;
+    padding: 5px;
+    text-align: justify;
+}
+.nome {
+    font-size: 35px;
+    color: #F4F3F3;
+    font-weight: 500;
+}
+.redes {
+    color: #F4F3F3;
+    font-weight: 300;
+    font-size: 24px;
+}
+.sobre {
+    background-color: #F4F3F3;
+}
+.sobre .nome{
+    color: #000000;
+}
+    h3 {
+        color: #598c38;
+        font-size: 40px;
+    }
+    section, footer, header{
+        padding: 0px 150px;
+    }
+    .sobre {
+        padding: 70px 150px;
+    }
+    header{
+        padding-top: 150px;
+    }
+    .nome {
+        padding: 20px 0px;
+    }
+.impacto{
+    display: flex;
+}
+.impactot{
+    font-family: "Lexend", sans-serif;
+    color: #F4F3F3;
+}
+.impacto{
+    display: flex;
+}
+.impactos{
+    align-items: center;
+    font-family: "Lexend", sans-serif;
+    color: #F4F3F3;
+}
+.parceria{
+    display: flex;
+}
+.impactoo{
+    font-family: "Lexend", sans-serif;
+    color: #F4F3F3;
+}
+.contanier{
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right ;
+    height: 1100px;
+    width: 1500px;
+    background-color: #476B30;
+}
+.impactoos{
+    color: #F4F3F3;
+}
